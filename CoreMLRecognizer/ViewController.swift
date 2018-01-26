@@ -28,6 +28,8 @@ class ViewController: UIViewController {
         captureSession.startRunning()
         
         // added this tiny line of comments
+        
+        //another line from MacBook Pro
     }
 
 
