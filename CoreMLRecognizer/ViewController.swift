@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         previewLayer.frame = view.layer.bounds
         view.layer.addSublayer(previewLayer)
         captureSession.startRunning()
+        
+        // added this tiny line of comments
     }
 
 
