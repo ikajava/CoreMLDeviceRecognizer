@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE0AB4B0201B1AC90025E5D6 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AE0AB4AF201B1AC90025E5D6 /* SqueezeNet.mlmodel */; };
 		E731F5BB201A4C14009A172B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E731F5BA201A4C14009A172B /* AppDelegate.swift */; };
 		E731F5BD201A4C14009A172B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E731F5BC201A4C14009A172B /* ViewController.swift */; };
 		E731F5C0201A4C14009A172B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E731F5BE201A4C14009A172B /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE0AB4AF201B1AC90025E5D6 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 		E731F5B7201A4C14009A172B /* CoreMLRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E731F5BA201A4C14009A172B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E731F5BC201A4C14009A172B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 		E731F5AE201A4C13009A172B = {
 			isa = PBXGroup;
 			children = (
+				AE0AB4AF201B1AC90025E5D6 /* SqueezeNet.mlmodel */,
 				E731F5B9201A4C14009A172B /* CoreMLRecognizer */,
 				E731F5B8201A4C14009A172B /* Products */,
 			);
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E731F5BD201A4C14009A172B /* ViewController.swift in Sources */,
+				AE0AB4B0201B1AC90025E5D6 /* SqueezeNet.mlmodel in Sources */,
 				E731F5BB201A4C14009A172B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,7 +282,7 @@
 				DEVELOPMENT_TEAM = GXN87X5984;
 				INFOPLIST_FILE = CoreMLRecognizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ikajava.CoreMLRecognizer;
+				PRODUCT_BUNDLE_IDENTIFIER = ikajava88.CoreMLRecognizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,7 +297,7 @@
 				DEVELOPMENT_TEAM = GXN87X5984;
 				INFOPLIST_FILE = CoreMLRecognizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ikajava.CoreMLRecognizer;
+				PRODUCT_BUNDLE_IDENTIFIER = ikajava88.CoreMLRecognizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
